@@ -23,7 +23,9 @@ The best submissions will surprise us. Combine these, take them further, or solv
 
 ## What's in this repo
 
-- `dataset/`: a sample outdoor-gear catalog to build against (227 product variants with scannable barcodes, color/size, weight, waterproof rating, material, tags, prices, stock, and a store map). See `dataset/README.md`.
+- `dataset/products.json`: a sample outdoor-gear catalog to build against (249 product variants with scannable barcodes, color/size, weight, waterproof rating, material, tags, prices, and stock). See `dataset/README.md`.
+- `dataset/sample-barcodes.pdf`: real product barcodes you can scan (print it or scan it off a screen) to test scanning, AR overlays, and your whole app without a physical store. They match the catalog, so a scan returns real product data.
+- `dataset/store-map.png`: the store floor plan, so your app can guide shoppers aisle by aisle to the right product.
 - `.env.example`: a template for your Scandit license key.
 
 ## Get started
