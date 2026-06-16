@@ -2,13 +2,13 @@
 
 A small, made-up product catalog for a Swiss outdoor retailer, so you have realistic data to build against. 47 products expand into 227 variants (one row per color and size) across 7 store zones, each with a valid scannable barcode, query-friendly tags, a store location, and stock counts.
 
-The catalog also includes 22 extra SKUs (9 shoes, 10 socks, 3 tops) tagged `demo-book`. These carry the **real barcodes from the physical Scandit Demo Book**, so if you have one you can scan the book itself and get a catalog hit. The shoes use QR codes and the socks and tops use Code128 (the rest of the catalog is EAN-13). The book prints no name or price for the shoes and socks, so theirs are descriptive and `price_chf`/`brand` are left empty; the tops have their printed names and prices. Fill in the blanks if your demo needs them.
+The catalog also includes 22 extra SKUs (9 shoes, 10 socks, 3 tops) tagged `demo-book`. These carry the **real barcodes from the physical Scandit Demo Book**, so if you have one you can scan the book itself and get a catalog hit. The shoes use QR codes and the socks and tops use Code128 (the rest of the catalog is EAN-13). The tops carry their printed names and prices. The book prints none for the shoes and socks, so their names are descriptive and their brands, prices, and characteristics (tags) are made up to match the rest of the catalog. The three matching book pages are bundled here as `sample-barcodes.pdf`, so you can scan them even without the physical book.
 
 Everything here is fictional (brands, prices, barcodes). Use it freely.
 
 ## Files
 
-- `products.csv`: the catalog as CSV. The `tags` column is a list joined with `;` (split on `;` to get the tags). Load it with any CSV reader or paste it into an LLM.
+- `products.json`: the catalog as typed JSON, one object per variant (`tags` stays a real array). Load it with any JSON reader or paste it into an LLM.
 - `sample-barcodes.pdf`: 3 pages from the physical Scandit Demo Book (shoes, socks, tops) whose barcodes match the `demo-book` rows in the catalog. Print it or scan it off a screen to try the app against real catalog data.
 - `store-map.png`: the store floor plan (shown below).
 
