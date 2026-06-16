@@ -2,12 +2,14 @@
 
 A small, made-up product catalog for a Swiss outdoor retailer, so you have realistic data to build against. 47 products expand into 227 variants (one row per color and size) across 7 store zones, each with a valid scannable barcode, query-friendly tags, a store location, and stock counts.
 
+The catalog also includes 22 extra SKUs (9 shoes, 10 socks, 3 tops) tagged `demo-book`. These carry the **real barcodes from the physical Scandit Demo Book**, so if you have one you can scan the book itself and get a catalog hit. The shoes use QR codes and the socks and tops use Code128 (the rest of the catalog is EAN-13). The book prints no name or price for the shoes and socks, so theirs are descriptive and `price_chf`/`brand` are left empty; the tops have their printed names and prices. Fill in the blanks if your demo needs them.
+
 Everything here is fictional (brands, prices, barcodes). Use it freely.
 
 ## Files
 
-- `products.json`: the catalog as typed JSON (lists stay lists). Best for code and AI.
-- `products.csv`: the same catalog as CSV (lists joined with `;`). Best for spreadsheets.
+- `products.csv`: the catalog as CSV. The `tags` column is a list joined with `;` (split on `;` to get the tags). Load it with any CSV reader or paste it into an LLM.
+- `sample-barcodes.pdf`: 3 pages from the physical Scandit Demo Book (shoes, socks, tops) whose barcodes match the `demo-book` rows in the catalog. Print it or scan it off a screen to try the app against real catalog data.
 - `store-map.png`: the store floor plan (shown below).
 
 ## Fields
@@ -16,7 +18,7 @@ Each row is one product in one color and one size. Variants of the same product 
 
 | Field | Type | Notes |
 |-------|------|-------|
-| `product_code` | string | Valid EAN-13 barcode, unique per variant. Scans with Scandit. |
+| `product_code` | string | Scannable barcode, unique per variant. EAN-13 for the main catalog; the `demo-book` SKUs use the real QR (shoes) and Code128 (socks) values from the physical Scandit Demo Book. All scan with Scandit. |
 | `product_id` | string | Groups all color/size variants of one product. |
 | `name` | string | Product name. |
 | `brand` | string | One of 5 fictional brands. |
@@ -65,7 +67,9 @@ There is no real indoor positioning here, so pick a simple model for "where is t
 
 Tags let a shopper ask for specific characteristics ("show me vegan, waterproof jackets"). The full set in this dataset:
 
-`3-season`, `4-season`, `beginner`, `breathable`, `down`, `family`, `gore-tex`, `grippy`, `insulated`, `kids`, `lightweight`, `mens`, `merino`, `packable`, `rechargeable`, `recycled`, `summer`, `synthetic`, `technical`, `ultralight`, `unisex`, `vegan`, `waterproof`, `windproof`, `winter`, `womens`
+`3-season`, `4-season`, `beginner`, `breathable`, `casual`, `demo-book`, `down`, `family`, `gore-tex`, `grippy`, `hiking`, `insulated`, `kids`, `lightweight`, `mens`, `merino`, `packable`, `rechargeable`, `recycled`, `summer`, `synthetic`, `technical`, `trail-running`, `ultralight`, `unisex`, `vegan`, `waterproof`, `windproof`, `winter`, `womens`
+
+(`demo-book` marks the 19 SKUs whose barcodes match the physical Scandit Demo Book; it's a provenance marker, not a shopper filter.)
 
 ## Example uses
 

@@ -226,3 +226,25 @@ product_code,product_id,name,brand,category,color,size,price_chf,discount_pct,we
 7610000002251,P045,Trail Merino Socks,Alpitec,socks,Grey,L,24.0,0,60,0,,Merino wool,merino;breathable;unisex,G,Accessories,G4,14,3,Cushioned merino hiking socks.
 7610000002268,P046,Pocket Stove Titanium,Pinewild,stove,Titanium,one-size,89.0,0,66,0,,Titanium,ultralight;technical;unisex,G,Accessories,G5,10,6,Titanium canister stove that folds tiny.
 7610000002275,P047,Sunshield Cap,Glaronia,hat,Sand,one-size,25.0,0,59,0,,Recycled polyester,lightweight;summer;recycled;unisex,G,Accessories,G4,11,2,Packable sun cap with neck flap.
+127396746875,P048,Trail Shoe,Pinewild,trail-shoes,Purple,42,139.0,0,476,0,,Mesh + rubber,demo-book;trail-running;lightweight;breathable;summer;unisex,B,Footwear,B2,7,5,Light trail-running shoe for dry paths.
+220607960340,P049,Trail Shoe,Glaronia,trail-shoes,Mint,42,129.0,0,476,0,,Mesh + rubber,demo-book;trail-running;lightweight;breathable;vegan;unisex,B,Footwear,B2,8,1,"Animal-free trail runner, breathable mesh."
+621601539983,P050,Trail Shoe,Pinewild,trail-shoes,Blue/Grey,42,149.0,0,560,0,,Mesh + rubber,demo-book;trail-running;breathable;3-season;unisex,B,Footwear,B2,16,4,All-round trail shoe for mixed terrain.
+566275535035,P051,Mid Boot,Steinbock,boots,Black/Yellow,42,199.0,0,1150,12000,,Gore-Tex 3L,demo-book;waterproof;gore-tex;3-season;technical;unisex,B,Footwear,B1,5,0,Waterproof mid boot with Gore-Tex lining.
+155989995167,P052,Trail Shoe,Alpitec,trail-shoes,Orange,42,159.0,0,560,0,,Mesh + rubber,demo-book;grippy;technical;3-season;unisex,B,Footwear,B2,13,3,Sticky-rubber trail shoe for technical ground.
+915010806733,P053,Trail Shoe,Alpitec,trail-shoes,Blue/Orange,42,145.0,0,560,0,,Mesh + rubber,demo-book;trail-running;breathable;summer;unisex,B,Footwear,B2,9,6,"Fast, ventilated shoe for warm-weather runs."
+422867137693,P054,Hiking Shoe,Steinbock,approach-shoes,Brown,42,169.0,0,720,0,,Suede + sticky rubber,demo-book;grippy;technical;casual;3-season;unisex,B,Footwear,B3,10,2,Suede approach shoe that doubles as casual wear.
+680913419876,P055,Trail Shoe,Nordfjell,trail-shoes,Charcoal,42,139.0,0,560,0,,Mesh + rubber,demo-book;breathable;casual;3-season;unisex,B,Footwear,B2,18,5,Understated trail shoe for trail and town.
+769067431255,P056,Trail Shoe,Glaronia,trail-shoes,Teal,42,129.0,0,476,0,,Mesh + rubber,demo-book;trail-running;lightweight;breathable;unisex,B,Footwear,B2,7,1,Lightweight trail runner in a bright colourway.
+2846287789562,P057,wearit Socks,wearit,socks,Teal Dot,M,19.0,0,60,0,,Merino wool,demo-book;merino;breathable;hiking;3-season;unisex,G,Accessories,G4,15,4,Cushioned merino hiking socks.
+5628895968545,P058,wearit Socks,wearit,socks,Navy,M,16.0,0,51,0,,Merino blend,demo-book;trail-running;lightweight;breathable;unisex,G,Accessories,G4,4,0,"Thin running socks, quick-drying."
+1020203635321,P059,wearit Socks,wearit,socks,Teal Stripe,M,19.0,0,60,0,,Merino wool,demo-book;merino;breathable;hiking;3-season;unisex,G,Accessories,G4,12,3,"Cushioned merino hiking socks, striped."
+8510025456985,P060,wearit Socks,wearit,socks,Blue,M,16.0,0,51,0,,Merino blend,demo-book;trail-running;lightweight;breathable;unisex,G,Accessories,G4,8,6,"Thin running socks, quick-drying."
+9965223654125,P061,wearit Socks,wearit,socks,Aqua Stripe,M,18.0,0,51,0,,Merino blend,demo-book;breathable;summer;lightweight;unisex,G,Accessories,G4,9,2,Breathable summer socks.
+5589666635252,P062,wearit Socks,wearit,socks,Charcoal Dot,M,24.0,0,60,0,,Merino wool,demo-book;merino;insulated;winter;4-season;unisex,G,Accessories,G4,17,5,Warm merino socks for cold days.
+8956224586589,P063,wearit Socks,wearit,socks,Blue Stripe,M,17.0,0,51,0,,Merino blend,demo-book;breathable;lightweight;casual;unisex,G,Accessories,G4,6,1,Everyday socks for trail and town.
+2265632525895,P064,wearit Socks,wearit,socks,Orange Dot,M,18.0,0,60,0,,Merino blend,demo-book;breathable;summer;casual;unisex,G,Accessories,G4,14,4,Bright breathable socks for warm days.
+5214985623214,P065,wearit Socks,wearit,socks,Teal,M,22.0,0,60,0,,Merino wool,demo-book;merino;insulated;winter;4-season;unisex,G,Accessories,G4,3,0,Warm merino socks for cold days.
+8852525969785,P066,wearit Socks,wearit,socks,Navy Stripe,M,17.0,0,51,0,,Merino blend,demo-book;trail-running;lightweight;breathable;unisex,G,Accessories,G4,11,3,"Thin running socks, striped."
+9807639273582,P067,Knitted Hoodie Jumper,Glaronia,fleece,Charcoal,M,39.99,0,360,0,,Recycled fleece,demo-book;casual;recycled;3-season;unisex,F,Base Layers & Clothing,F2,19,6,Cosy knitted hoodie for camp and town.
+9807639272886,P068,3/4 Sleeve T-Shirt,Pinewild,base-layer,Grey,S,17.98,0,180,0,,Recycled polyester,demo-book;breathable;casual;summer;unisex,F,Base Layers & Clothing,F1,8,2,Soft 3/4-sleeve tee for everyday wear.
+9807639274650,P069,Short Sleeve Top V-Neck,Pinewild,base-layer,Green,M,19.98,0,180,0,,Recycled polyester,demo-book;breathable;casual;summer;unisex,F,Base Layers & Clothing,F1,16,5,"Lightweight V-neck tee, breathable cotton blend."
