@@ -83,4 +83,3 @@ On the day, you present a 3-minute live demo with 2 minutes of questions. There'
 
 - Scandit skills (install instructions): https://github.com/Scandit/skills
 - Scandit documentation: https://docs.scandit.com
-- Lovable skills guide: https://docs.lovable.dev/features/skills
