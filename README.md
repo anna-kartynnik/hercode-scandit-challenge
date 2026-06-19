@@ -1,3 +1,12 @@
+# Bloom team deliverables
+You will need Anthropic API key to run this repo with `npm run-script dev`.
+
+additional repo: https://github.com/somersetjarvis1/outdooradventure
+
+video: https://www.swisstransfer.com/d/1770b4dd-8d0c-4d39-b845-e41489d6c246
+
+
+
 # [Scandit x HerCode] Hackathon Challenge: In-Store AI Concierge
 
 Welcome to Scandit's HerCode hackathon challenge. This repo is your starting point: the challenge brief, a sample dataset, and the setup instructions to build on top of Scandit. Good luck, and have fun.
