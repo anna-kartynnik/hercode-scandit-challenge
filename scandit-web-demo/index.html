@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scandit MatrixScan AR</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font-family: system-ui, sans-serif; background: #000; color: #fff; height: 100dvh; display: flex; flex-direction: column; }
+      #app { flex: 1; display: flex; flex-direction: column; }
+      #scanner-container { flex: 1; position: relative; }
+      #start-btn {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.75rem 2rem;
+        background: #f90;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        z-index: 10;
+      }
+      #status {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+        color: #aaa;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="scanner-container">
+        <button id="start-btn">Start Scanning</button>
+      </div>
+      <div id="status">Ready</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
