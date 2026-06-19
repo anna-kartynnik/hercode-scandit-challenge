@@ -6,30 +6,48 @@
     <title>Scandit MatrixScan AR</title>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      body { font-family: system-ui, sans-serif; background: #000; color: #fff; height: 100dvh; display: flex; flex-direction: column; }
-      #app { flex: 1; display: flex; flex-direction: column; }
-      #scanner-container { flex: 1; position: relative; }
+      body { font-family: system-ui, sans-serif; background: #111; color: #fff; height: 100dvh; display: flex; flex-direction: column; }
+      #app { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+      #scanner-container { flex: 1; position: relative; min-height: 0; }
       #start-btn {
         position: absolute;
-        bottom: 2rem;
+        bottom: 1rem;
         left: 50%;
         transform: translateX(-50%);
-        padding: 0.75rem 2rem;
+        padding: 0.6rem 1.8rem;
         background: #f90;
         color: #000;
         font-size: 1rem;
-        font-weight: 600;
+        font-weight: 700;
         border: none;
         border-radius: 2rem;
         cursor: pointer;
         z-index: 10;
       }
-      #status {
-        padding: 0.5rem 1rem;
-        font-size: 0.85rem;
-        color: #aaa;
-        text-align: center;
+      #result-panel {
+        max-height: 38vh;
+        overflow-y: auto;
+        padding: 0.5rem;
+        background: #1a1a1a;
       }
+      .result-hint { padding: 0.75rem; color: #888; text-align: center; font-size: 0.9rem; }
+      .result-hint.error { color: #f55; }
+      .result-card {
+        background: #252525;
+        border-radius: 12px;
+        padding: 0.85rem 1rem;
+        margin-bottom: 0.4rem;
+      }
+      .result-card.unknown { color: #888; font-size: 0.9rem; }
+      .result-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3rem; }
+      .category { font-size: 0.75rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+      .badge.discount { background: #e33; color: #fff; font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 1rem; }
+      .result-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.2rem; }
+      .result-meta { font-size: 0.8rem; color: #aaa; margin-bottom: 0.4rem; }
+      .result-price { font-size: 1.1rem; font-weight: 700; color: #f90; margin-bottom: 0.4rem; }
+      .original { color: #666; font-size: 0.85rem; font-weight: 400; margin-left: 0.4rem; }
+      .result-footer { display: flex; gap: 1rem; font-size: 0.82rem; color: #ccc; margin-bottom: 0.4rem; }
+      .result-desc { font-size: 0.8rem; color: #999; }
     </style>
   </head>
   <body>
@@ -37,7 +55,7 @@
       <div id="scanner-container">
         <button id="start-btn">Start Scanning</button>
       </div>
-      <div id="status">Ready</div>
+      <div id="result-panel"></div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
